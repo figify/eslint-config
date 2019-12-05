@@ -2,7 +2,7 @@
 
 An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for web application development using node.js + react
 
-![](https://img.shields.io/github/workflow/status/figify/eslint-config/build) ![](https://img.shields.io/npm/v/@figify/eslint-config)
+[![gha](https://img.shields.io/github/workflow/status/figify/eslint-config/build)](https://github.com/figify/eslint-config/actions) [![npm](https://img.shields.io/npm/v/@figify/eslint-config)](https://www.npmjs.com/package/@figify/eslint-config) [![license](https://img.shields.io/npm/l/@figify/eslint-config)](./LICENSE)
 
 ## Usage
 
