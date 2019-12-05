@@ -4,6 +4,19 @@ An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-co
 
 [![gha](https://img.shields.io/github/workflow/status/figify/eslint-config/build)](https://github.com/figify/eslint-config/actions) [![npm](https://img.shields.io/npm/v/@figify/eslint-config)](https://www.npmjs.com/package/@figify/eslint-config) [![license](https://img.shields.io/npm/l/@figify/eslint-config)](./LICENSE)
 
+## Contents
+
+Uses recommended rules from `eslint` the following plugins:
+
+ - import
+ - json
+ - jsx-a11y
+ - eslint-plugin-node
+ - eslint-plugin-promise
+ - eslint-plugin-react
+ - eslint-plugin-security
+ - eslint-plugin-sonarjs
+
 ## Usage
 
 Install as devDependencies the following packages:
