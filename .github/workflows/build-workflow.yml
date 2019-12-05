@@ -1,9 +1,11 @@
-name: eslint-config-test
+name: build
 
 on:
   push:
     branches:
       - master
+  release:
+    types: [published]
 
 jobs:
   build:
@@ -21,3 +23,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     - run: npm test
+
+  publish:
+    needs: build
+    if: contains(github.ref, 'v*')
+    steps:
+      - run: npm publish --access public
+      env:
+        NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

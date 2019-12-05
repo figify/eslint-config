@@ -2,7 +2,7 @@
 
 An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for web application development using node.js + react
 
-![](https://github.com/figify/eslint-config/workflows/eslint-config-test/badge.svg)
+![](https://img.shields.io/github/workflow/status/figify/eslint-config/build)
 
 ## Usage
 

@@ -1,6 +1,6 @@
 {
   "name": "@figify/eslint-config",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Shareable eslint config used in figify",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "mern",
     "react"
   ],
-  "author": "Kyriakos Chatzidimitriou <kyrcha@gmail.com>",
+  "author": "Kyriakos Chatzidimitriou <kyrcha@gmail.com> (http://kyrcha.info)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/figify/eslint-config/issues"
