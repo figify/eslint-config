@@ -35,6 +35,18 @@ then create an .eslintrc.json file with
 }
 ```
 
+### React addition
+
+In order not to be bothered by the no unsupported features rule from the node plugin, I add in the folder containing React code another .eslintrc.json file with
+
+```
+{
+  "rules": {
+    "node/no-unsupported-features/es-syntax": "off"
+  }
+}
+```
+
 ## Test
 
     npm test
