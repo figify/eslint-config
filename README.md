@@ -47,6 +47,24 @@ In order not to be bothered by the no unsupported features rule from the node pl
 }
 ```
 
+### For devDependencies in tests etc.
+
+The node plugin will complain for any unpublished require statement if the dependency is in devDependencies.
+
+From this [issue comment](https://github.com/mysticatea/eslint-plugin-node/issues/47#issuecomment-356027735):
+
+```
+{
+  "overrides": [{
+    "files": "**/*.test.js",
+    "rules": {
+        "node/no-unpublished-require": 0,
+        "node/no-missing-require": 0
+    }
+  }]
+} 
+```
+
 ## Test
 
     npm test
